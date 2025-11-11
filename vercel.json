@@ -2,11 +2,6 @@
   "buildCommand": "npm run install:all && npm run build",
   "outputDirectory": "apps/frontend/dist",
   "installCommand": "npm install",
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/(.*)",
